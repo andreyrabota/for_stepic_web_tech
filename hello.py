@@ -1,5 +1,3 @@
-bind = "0.0.0.0:8080"
-workers = 5
 def application(environ, start_response):
     status = '200 OK'
     headers = [
